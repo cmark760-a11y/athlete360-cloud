@@ -1,0 +1,27 @@
+{
+  "name": "athlete360-cloud",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@netlify/database": "^1.0.0",
+    "@netlify/identity": "^1.0.0",
+    "drizzle-orm": "beta",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^3.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "drizzle-kit": "beta",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
